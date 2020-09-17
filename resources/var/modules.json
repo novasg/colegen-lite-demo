@@ -1,0 +1,335 @@
+[
+	{
+		"module": "reception",
+		"translation": "reception.reception",
+		"menu": {
+			"name": "reception",
+			"translation": "reception.reception",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "enquiry",
+					"translation": "reception.admission_enquiry",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "visitor_log",
+					"translation": "reception.visitor_log",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "call_log",
+					"translation": "reception.call_log",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "postal_record",
+					"translation": "reception.postal_record",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "complaint",
+					"translation": "reception.complaint",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "gate_pass",
+					"translation": "reception.gate_pass",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "academic",
+		"translation": "academic.academic",
+		"menu": {
+			"name": "academic",
+			"translation": "academic.academic",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "academic_session",
+					"translation": "academic.academic_session",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "course",
+					"translation": "academic.course",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "batch",
+					"translation": "academic.batch",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "class_teacher",
+					"translation": "academic.class_teacher",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "subject",
+					"translation": "academic.subject",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "subject_teacher",
+					"translation": "academic.subject_teacher",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "student",
+		"translation": "student.student",
+		"menu": {
+			"name": "student",
+			"translation": "student.student",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "student_import",
+					"translation": "student.import",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "registration",
+					"translation": "student.registration",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_list",
+					"translation": "student.student_list",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "roll_number",
+					"translation": "student.roll_number",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_attendance",
+					"translation": "student.attendance",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "promotion",
+					"translation": "student.promotion",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "termination",
+					"translation": "student.termination",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "student_parent",
+					"translation": "student.parent",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "employee",
+		"translation": "employee.employee",
+		"menu": {
+			"name": "employee",
+			"translation": "employee.employee",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "employee_import",
+					"translation": "employee.import",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "employee_list",
+					"translation": "employee.employee_list",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "finance",
+		"translation": "finance.finance",
+		"menu": {
+			"name": "finance",
+			"translation": "finance.finance",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "fee_group",
+					"translation": "finance.fee_group",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "fee_head",
+					"translation": "finance.fee_head",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "transport_fee",
+					"translation": "transport.fee",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "fee_concession",
+					"translation": "finance.fee_concession",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "fee_allocation",
+					"translation": "finance.fee_allocation",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "account",
+					"translation": "finance.account",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "finance_report",
+					"translation": "general.report",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "calendar",
+		"translation": "calendar.calendar",
+		"menu": {
+			"name": "calendar",
+			"translation": "calendar.calendar",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "holiday",
+					"translation": "calendar.holiday",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "event",
+					"translation": "calendar.event",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "celebration",
+					"translation": "calendar.celebration",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "post",
+		"translation": "post.post",
+		"menu": {
+			"name": "post",
+			"translation": "post.post",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "post_feed",
+					"translation": "post.feed",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "article",
+					"translation": "post.article",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "communication",
+		"translation": "communication.communication",
+		"menu": {
+			"name": "communication",
+			"translation": "communication.communication",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "communication_history",
+					"translation": "communication.history",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "my_notification",
+					"translation": "communication.my_notification",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "send_sms",
+					"translation": "communication.sms",
+					"visibility": true,
+					"submenu": []
+				},
+				{
+					"name": "send_email",
+					"translation": "communication.email",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	},
+	{
+		"module": "utility",
+		"translation": "utility.utility",
+		"menu": {
+			"name": "utility",
+			"translation": "utility.utility",
+			"visibility": true,
+			"submenu": [
+				{
+					"name": "todo",
+					"translation": "utility.todo",
+					"visibility": true,
+					"submenu": []
+				}
+			]
+		}
+	}
+]

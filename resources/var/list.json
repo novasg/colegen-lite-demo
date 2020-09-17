@@ -1,0 +1,38 @@
+{
+	"gender": [
+		"male",
+		"female"
+	],
+	"marital_status": [
+		"single",
+		"married",
+		"separated",
+		"widowed",
+		"divorced"
+	],
+	"relations": [
+		"father",
+		"mother",
+		"spouse",
+		"other"
+	],
+	"day": [
+		"sunday",
+		"monday",
+		"tuesday",
+		"wednesday",
+		"thursday",
+		"friday",
+		"saturday"
+	],
+	"frequency": [
+		"daily",
+		"weekly",
+		"fortnightly",
+		"monthly",
+		"bi_monthly",
+		"quarterly",
+		"bi_annually",
+		"annually"
+	]
+}

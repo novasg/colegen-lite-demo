@@ -1,0 +1,214 @@
+{
+	"default_config": {
+		"setup_wizard": 1,
+		"color_theme": "blue",
+	    "direction": "ltr",
+	    "sidebar": "mini",
+	    "locale": "en",
+	    "timezone": "Asia/Kolkata",
+	    "first_day_of_week": "monday",
+	    "notification_position": "toast-bottom-right",
+	    "date_format": "DD-MM-YYYY",
+	    "time_format": "H:mm",
+	    "page_length": 10,
+	    "currency": "USD",
+	    "driver": "log",
+	    "from_address": "hello@example.com",
+	    "from_name": "Hello",
+	    "logo": "",
+	    "icon": "",
+	    "token_lifetime": 1440,
+	    "mobile_token_lifetime": 43200,
+	    "reset_password_token_lifetime": 30,
+	    "activity_log": 1,
+	    "email_log": 1,
+	    "reset_password": 1,
+	    "login_with_otp": 0,
+	    "email_template": 1,
+	    "todo": 1,
+	    "designation_subordinate_level": 1,
+	    "default_attendance_type": "daily",
+	    "student_late_attendance_time": "daily",
+	    "enable_registration": 0,
+	    "enable_registration_fee": 0,
+	    "default_max_strength_per_batch": 30,
+	    "default_roll_number_prefix": "",
+	    "system_admin_designation": "System Admin",
+	    "system_admin_employee_category": "System Admin",
+	    "employee_code_digit": 3,
+        "allow_to_modify_student_attendance": 0,
+        "days_allowed_to_modify_student_attendance": 0,
+        "allow_to_mark_student_advance_attendance": 0,
+        "days_allowed_to_mark_student_advance_attendance": 0,
+        "max_sms_per_chunk": 100,
+        "max_push_notification_per_chunk": 500,
+	    "admission_number_digit": 3
+	},
+	"hidden_field": "xxxxxxxxxx",
+	"private_config_variables": [
+		"smtp_username",
+		"smtp_password",
+        "mailgun_username",
+        "mailgun_password",
+        "mailgun_secret",
+        "mandrill_secret",
+        "custom_sms_api_get_url"
+	],
+	"public_config": [
+		"color_theme",
+        "date_format",
+        "time_format",
+        "notification_position",
+        "direction",
+        "reset_password",
+        "two_factor_security",
+        "login_with_otp",
+        "https",
+        "mode",
+        "currency",
+        "footer_credit",
+        "logo",
+        "institute_name",
+        "address_line_1",
+        "address_line_2",
+        "city",
+        "state",
+        "zipcode",
+        "country",
+        "phone",
+        "fax",
+        "email",
+        "website",
+        "facebook_link",
+        "twitter_link",
+        "linkedin_link",
+        "google_plus_link",
+        "youtube_link",
+        "page_length"
+	],
+	"upload_path": { 
+		"student_photo": "uploads/student_photo",
+		"father_photo": "uploads/father_photo",
+		"mother_photo": "uploads/mother_photo",
+		"employee_photo": "uploads/employee_photo"
+	},
+	"pagination": [
+		"1","5","10","12","25","50","100"
+	],
+	"mail_drivers": [
+		{
+			"text": "Mail",
+			"value": "mail"
+		},
+		{
+			"text": "Sendmail",
+			"value": "sendmail"
+		},
+		{
+			"text": "Mailgun",
+			"value": "mailgun"
+		},
+		{
+			"text": "SMTP",
+			"value": "smtp"
+		},
+		{
+			"text": "Log",
+			"value": "log"
+		}
+	],
+	"color_themes": [
+		{ 
+			"text": "Blue",
+			"value": "blue" 
+		},
+		{ 
+			"text": "Red",
+			"value": "red"
+		},
+		{ 
+			"text": "Default",
+			"value": "default"
+		},
+		{ 
+			"text": "Green",
+			"value": "green"
+		},
+		{ 
+			"text": "Megna",
+			"value": "megna"
+		},
+		{ 
+			"text": "Purple",
+			"value": "purple"
+		}
+	],
+	"directions": [
+		{ 
+			"text": "Right to Left",
+			"value": "rtl"
+		},
+		{ 	"text": "Left to Right",
+			"value": "ltr"
+		}
+	],
+	"sidebar": [
+		{ 
+			"text": "Mini",
+			"value": "mini"
+		},
+		{ 	"text": "Normal",
+			"value": "normal"
+		}
+	],
+	"date_formats": [
+		{ 
+			"text": "DD-MM-YYYY",
+			"value": "DD-MM-YYYY"
+		},
+		{ 
+			"text": "MM-DD-YYYY",
+			"value": "MM-DD-YYYY"
+		},
+		{ 
+			"text": "DD-MMM-YYYY",
+			"value": "DD-MMM-YYYY"
+		},
+		{ 
+			"text": "MMM-DD-YYYY",
+			"value": "MMM-DD-YYYY"
+		},
+		{ 
+			"text": "YYYY-MM-DD",
+			"value": "YYYY-MM-DD"
+		}
+	],
+	"time_formats": [
+		{ 
+			"text": "H:mm",
+			"value": "H:mm"
+		},
+		{ 
+			"text": "h:mm a",
+			"value": "h:mm a"
+		}
+	],
+	"notification_positions": [
+		{ 
+			"text": "Top Right",
+			"value": "toast-top-right"
+		},
+		{ 
+			"text": "Top Left",
+			"value": "toast-top-left"
+		},
+		{ 
+			"text": "Bottom Right",
+			"value": "toast-bottom-right"
+		},
+		{ 
+			"text": "Bottom Left",
+			"value": "toast-bottom-left"
+		}
+	]
+}

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[110],{qBXY:function(e,n,t){"use strict";t.r(n);var i={methods:{},mounted:function(){$("body").removeClass("fix-header fix-sidebar"),helper.notification()},destroyed:function(){}},o=t("KHd+"),r=Object(o.a)(i,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("router-view")],1)}),[],!1,null,null,null);n.default=r.exports}}]);
+//# sourceMappingURL=guestPage.js.map?id=ad24ba7033c794772660

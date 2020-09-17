@@ -1,0 +1,7 @@
+{
+	"student_termination_reasons": [
+		"transferred",
+		"passed",
+		"withdrawn"
+	]
+}

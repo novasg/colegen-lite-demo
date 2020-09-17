@@ -1,0 +1,6 @@
+{
+	"api/article/*": ["description"],
+	"api/article"  : ["description"],
+	"api/event/*"  : ["description"],
+	"api/event"    : ["description"]
+}
